@@ -7,10 +7,10 @@ def doc_to_string(file_path):
     return text.decode('utf-8')
 
 rulings = []
-folder = os.listdir("/Applications/PLIKI/MN24/DMWS/law_nlp/DATA0409")
+folder = os.listdir("your_path_to_folder")
 i = 1
 for file in folder:
-    rulings.append(doc_to_string("/Applications/PLIKI/MN24/DMWS/law_nlp/DATA0409/" + f"{file}"))
+    rulings.append(doc_to_string("your_path_to_folder" + f"{file}"))
     print(f"{file} number {i}")
     i+=1
 

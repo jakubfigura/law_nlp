@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 import pandas as pd
 
-df = pd.read_csv('/Applications/PLIKI/MN24/DMWS/law_nlp/dane_TK_04-09.csv')
+df = pd.read_csv('your_path_to_csv_file')
 
 URLS = df['links'].values
 
