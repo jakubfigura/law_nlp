@@ -1,1 +1,1 @@
-Analiza danych orzeczniczych z Trybunału Konstytucyjnego.
+Analiza danych z korpusu orzeczeń Trybunału Konstytucyjnego.
